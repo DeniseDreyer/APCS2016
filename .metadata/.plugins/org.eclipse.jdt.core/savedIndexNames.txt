@@ -1,0 +1,4 @@
+INDEX VERSION 1.127+/Users/dreyerd/Desktop/APCS2016/.metadata/.plugins/org.eclipse.jdt.core
+3290742392.index
+1510534497.index
+751203406.index
