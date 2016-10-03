@@ -1,0 +1,13 @@
+// Rosalyn Cho
+// Temperature Convertion
+// 8/31/2016
+
+public class TempConvert {
+	public static void main(String[] args) {
+		System.out.println("Fahrenheit to Celsius");
+		double F = 212;   
+		double C = 0;
+		C = (5.0/9.0)*(F-32.0);
+		System.out.println (F + " degrees Fahrenheit is " + C + " Celsius");
+	}
+}

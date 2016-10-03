@@ -1,0 +1,21 @@
+/* Dylan Lamont
+ * August 30, 2016
+ * AP Comp Sci period 2
+ * Temperature Converter, takes a integer of temp, Fharenheit, and prints out a double of celcius.
+ */
+
+
+
+import java.util.*;
+public class TempConvert {
+
+	public static void main(String[] args) {
+		System.out.println("Hello, what is your temperature in Fahrenheit?");
+		Scanner inputFharenheit = new Scanner(System.in);
+		double intergerValueF = inputFharenheit.nextInt();
+		double celciusValue = (5.0/9.0)* (intergerValueF - 32);
+		System.out.println( intergerValueF + " degrees fahrenheit in celcius is " + celciusValue + " degrees.");
+	   
+	}
+
+}
